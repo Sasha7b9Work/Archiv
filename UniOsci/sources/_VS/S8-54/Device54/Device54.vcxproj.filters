@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HAL">
+      <UniqueIdentifier>{96513cdb-409e-408d-89af-d87b46362760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USBD">
+      <UniqueIdentifier>{ee692b68-4060-48ad-99a1-cebffd21e9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="USBH">
+      <UniqueIdentifier>{6e5f0948-c276-47dc-b1c0-7bbdc28e30e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FatFS">
+      <UniqueIdentifier>{9911ab23-6d83-4ca3-a745-0e65b2c4518e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LwIP">
+      <UniqueIdentifier>{ee5857f3-8d04-4bd5-b00e-1239e6cdfa8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STM32F437lib">
+      <UniqueIdentifier>{b68bfcfb-d2a5-4bfd-a7f1-2968a6d35541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{c94bb83b-a56f-48ac-9ed4-07e90ad58206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forVS">
+      <UniqueIdentifier>{073b3680-fbaa-47bd-ad78-13e4379fb59b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VCP">
+      <UniqueIdentifier>{15f7ff00-9063-489f-8a7a-56fe517cac5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{81478b92-dd56-4a3b-9367-cf3c381a18df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display">
+      <UniqueIdentifier>{351e627a-5c6f-4594-a9d1-f730bdf99f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{ab134b5f-f899-4ed2-b89f-d61943731611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display\fonts">
+      <UniqueIdentifier>{8d5e1928-9f84-4652-ba9d-9bdc84275d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ethernet">
+      <UniqueIdentifier>{07d1a7b3-29e3-4fbd-aaf8-752323520e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlashDrive">
+      <UniqueIdentifier>{14f1c1c1-e86d-4c62-8f34-d88a46d8eba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FPGA">
+      <UniqueIdentifier>{137bdca4-801b-4c2c-ba17-3b12cd10d048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hardware">
+      <UniqueIdentifier>{7236a1d3-bf4b-4825-833d-d81b0be66035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{4eb1ca1a-793d-451f-8472-6cf020b66b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Pages">
+      <UniqueIdentifier>{d5f4e1ec-6bb3-4300-8608-794c7aa1ccf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Panel">
+      <UniqueIdentifier>{575d68b6-7810-4030-975c-e04f25e2d063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SelfRecorder">
+      <UniqueIdentifier>{78740742-6650-42d1-a7c1-9dcb721ac1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{5aec2189-8be0-4113-b618-f7efddc524c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{a86e176a-f766-4345-b5f3-32dfff44ca82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VCP\SCPI">
+      <UniqueIdentifier>{f1786359-2db6-4799-a8fb-be12a04c44ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_crc.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dac_ex.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_eth.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pcd_ex.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rtc_ex.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sram.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fmc.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h">
+      <Filter>HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\FatFs\src\diskio.h">
+      <Filter>FatFS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\FatFs\src\ff.h">
+      <Filter>FatFS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\FatFs\src\ff_gen_drv.h">
+      <Filter>FatFS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\STM32F437lib\GPIO.h">
+      <Filter>STM32F437lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\STM32F437lib\GPIOdefs.h">
+      <Filter>STM32F437lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\core_cm4.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\ctype.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\math.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\stdarg.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\stdint.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\stdio.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\stdlib.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\stm32f4xx_hal.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\string.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\tchar.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbh_def.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\windows.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\limits.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbh_core.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbh_msc_bot.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbh_msc.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\ff_gen_drv.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbd_def.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbd_core.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\ff.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbd_cdc.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbd_ioreq.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Utils\Math.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Utils\StringUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Utils\Dictionary.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Utils\CommonFunctions.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\FPGA\FPGAMath.h">
+      <Filter>FPGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Utils\Map.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Menu\Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Menu\MenuItemsDefs.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Menu\Pages\Definition.h">
+      <Filter>Menu\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Display\Colors.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Display\DisplayPrimitives.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Display\DisplayTypes.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Display\Grid.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Display\Painter.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Display\Symbols.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Utils\Measures.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Menu\MenuItems.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Hardware\Timer.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Data\DataSettings.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Data\DataStorage.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Data\Reader.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Display\Font\Font.h">
+      <Filter>Display\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Display\Display.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Display\PainterData.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Display\PainterMem.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsChannel.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsCursors.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsDebug.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsDisplay.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsMath.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsMeasures.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsMemory.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsNew_.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsNRST.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsService.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsTime.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsTrig.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Settings\SettingsTypes.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Ethernet\app_ethernet.h">
+      <Filter>Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Ethernet\Ethernet.h">
+      <Filter>Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Ethernet\ethernetif.h">
+      <Filter>Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Ethernet\lwipopts.h">
+      <Filter>Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Ethernet\TcpSocket.h">
+      <Filter>Ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Panel\Controls.h">
+      <Filter>Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Panel\Panel.h">
+      <Filter>Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Panel\PanelFunctions.h">
+      <Filter>Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\VCP\SCPI\commonSCPI.h">
+      <Filter>VCP\SCPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\VCP\SCPI\controlSCPI.h">
+      <Filter>VCP\SCPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\VCP\SCPI\SCPI.h">
+      <Filter>VCP\SCPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\VCP\VCP.h">
+      <Filter>VCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\VCP\usbd_cdc_interface.h">
+      <Filter>USBD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\VCP\usbd_desc.h">
+      <Filter>USBD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\cmsis_gcc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\defines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Globals.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Log.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\stub.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Tables.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Menu\Pages\HelpContent.h">
+      <Filter>Menu\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Menu\Pages\HelpContentPages.h">
+      <Filter>Menu\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Menu\Pages\PageCursors.h">
+      <Filter>Menu\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Menu\Pages\PageDisplay.h">
+      <Filter>Menu\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Menu\Pages\PageHelp.h">
+      <Filter>Menu\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Menu\Pages\PageMemory.h">
+      <Filter>Menu\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Menu\MenuPagesNames.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\FlashDrive\FileManager.h">
+      <Filter>FlashDrive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\FlashDrive\FlashDrive.h">
+      <Filter>FlashDrive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\FPGA\FPGA.h">
+      <Filter>FPGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\FPGA\FPGAextensions.h">
+      <Filter>FPGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\FPGA\FPGATypes.h">
+      <Filter>FPGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Hardware\FLASH.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Hardware\FSMC.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Hardware\Hardware.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Hardware\RAM.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Hardware\RTC.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\libs\ffconf.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\libs\stm32f4xx_hal_conf.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\libs\stm32f4xx_it.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\libs\usbd_conf.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\libs\usbh_conf.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\libs\usbh_diskio.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\Utils\ProcessingSignal.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\S8-54\Device54\SelfRecorder\SelfRecorder.h">
+      <Filter>SelfRecorder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Hardware\Sound.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_eth.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hcd.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_core.c">
+      <Filter>USBH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_ctlreq.c">
+      <Filter>USBH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_ioreq.c">
+      <Filter>USBH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_pipes.c">
+      <Filter>USBH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\ST\STM32_USB_Host_Library\Class\MSC\Src\usbh_msc.c">
+      <Filter>USBH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\ST\STM32_USB_Host_Library\Class\MSC\Src\usbh_msc_bot.c">
+      <Filter>USBH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\ST\STM32_USB_Host_Library\Class\MSC\Src\usbh_msc_scsi.c">
+      <Filter>USBH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\FatFs\src\diskio.c">
+      <Filter>FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\FatFs\src\ff.c">
+      <Filter>FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c">
+      <Filter>FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\FatFs\src\option\syscall.c">
+      <Filter>FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\FatFs\src\option\unicode.c">
+      <Filter>FatFS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\api\api_lib.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\api\api_msg.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\ipv4\autoip.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\ipv4\dhcp.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\def.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\dns.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\api\err.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\ipv4\icmp.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\ipv4\igmp.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\inet_chksum.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\init.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\ipv4\ip4.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\ipv4\ip4_addr.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\mem.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\memp.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\api\netbuf.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\api\netdb.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\netif.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\api\netifapi.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\pbuf.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\raw.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\core\stats.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\api\sockets.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Middlewares\Third_Party\LwIP\src\api\tcpip.c">
+      <Filter>LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Utils\Math.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Utils\StringUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Utils\Dictionary.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Utils\CommonFunctions.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\FPGA\FPGAMath.cpp">
+      <Filter>FPGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Utils\Map.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Menu\Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Menu\MenuItems.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Menu\MenuItemsGraphics.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Menu\MenuItemsLogic.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Menu\Pages\Definition.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Display\Colors.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Display\DisplayPrimitives.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Display\Grid.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Display\Painter.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Display\PainterText.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Utils\Measures.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Hardware\Timer.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Data\DataSettings.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Data\DataStorage.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Data\Reader.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Display\Font\Font.cpp">
+      <Filter>Display\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Display\Display.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Display\PainterData.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Display\PainterMem.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Settings\Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Settings\SettingsChannel.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Settings\SettingsCursors.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Settings\SettingsDebug.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Settings\SettingsDisplay.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Settings\SettingsMemory.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Settings\SettingsTime.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Ethernet\app_ethernet.cpp">
+      <Filter>Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Ethernet\Ethernet.cpp">
+      <Filter>Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Ethernet\ethernetif.cpp">
+      <Filter>Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Ethernet\TcpSocket.cpp">
+      <Filter>Ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Panel\Controls.cpp">
+      <Filter>Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Panel\Panel.cpp">
+      <Filter>Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\SCPI\channelSCPI.cpp">
+      <Filter>VCP\SCPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\SCPI\commonSCPI.cpp">
+      <Filter>VCP\SCPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\SCPI\controlSCPI.cpp">
+      <Filter>VCP\SCPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\SCPI\displaySCPI.cpp">
+      <Filter>VCP\SCPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\SCPI\SCPI.cpp">
+      <Filter>VCP\SCPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\SCPI\tbaseSCPI.cpp">
+      <Filter>VCP\SCPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\SCPI\trigSCPI.cpp">
+      <Filter>VCP\SCPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\VCP.cpp">
+      <Filter>VCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\usbd_cdc_interface.cpp">
+      <Filter>USBD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\usbd_core.cpp">
+      <Filter>USBD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\VCP\usbd_desc.cpp">
+      <Filter>USBD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Globals.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\stub54.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Tables.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\HelpContent.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\PageChannels.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\PageCursors.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\PageDebug.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\PageDisplay.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\PageHelp.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\PageMeasures.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\PageMemory.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\PageService.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\PageTime.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Menu\Pages\PageTrig.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\FlashDrive\FileManager.cpp">
+      <Filter>FlashDrive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\FlashDrive\FlashDrive.cpp">
+      <Filter>FlashDrive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\FPGA\FPGA.cpp">
+      <Filter>FPGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\FPGA\FPGAextensions.cpp">
+      <Filter>FPGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\FPGA\fpgaSettings.cpp">
+      <Filter>FPGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\FPGA\FPGATypes.cpp">
+      <Filter>FPGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Hardware\FLASH.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Hardware\FSMC.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Hardware\Hardware.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Hardware\RAM.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Hardware\RTC.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\libs\stm32f4xx_hal_msp.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\libs\stm32f4xx_it.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\libs\system_stm32f4xx.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\libs\usbd_conf.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\libs\usbh_conf.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\libs\usbh_diskio.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\Utils\ProcessingSignal.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\S8-54\Device54\SelfRecorder\SelfRecorder.c">
+      <Filter>SelfRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Hardware\Sound.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\S8-54\Device54\Display\Font\font5.inc">
+      <Filter>Display\fonts</Filter>
+    </None>
+    <None Include="..\..\..\S8-54\Device54\Display\Font\font5display.inc">
+      <Filter>Display\fonts</Filter>
+    </None>
+    <None Include="..\..\..\S8-54\Device54\Display\Font\font8.inc">
+      <Filter>Display\fonts</Filter>
+    </None>
+    <None Include="..\..\..\S8-54\Device54\Display\Font\font8display.inc">
+      <Filter>Display\fonts</Filter>
+    </None>
+    <None Include="..\..\..\S8-54\Device54\Display\Font\fontUGO.inc">
+      <Filter>Display\fonts</Filter>
+    </None>
+    <None Include="..\..\..\S8-54\Device54\Display\Font\fontUGO2.inc">
+      <Filter>Display\fonts</Filter>
+    </None>
+    <None Include="..\..\..\S8-54\Device54\Display\Font\fontUGO2display.inc">
+      <Filter>Display\fonts</Filter>
+    </None>
+    <None Include="..\..\..\S8-54\Device54\Display\Font\fontUGOdisplay.inc">
+      <Filter>Display\fonts</Filter>
+    </None>
+    <None Include="..\..\..\S8-54\Device54\Device54.sct">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\..\S8-54\Device54\main2.s">
+      <Filter>src</Filter>
+    </None>
+    <None Include="..\..\..\S8-54\Device54\libs\startup_stm32f437xx.s">
+      <Filter>libs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\S8-54\Device54\FileTree.txt">
+      <Filter>src</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

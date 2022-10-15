@@ -1,0 +1,12 @@
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\bin\Debug\ControlLibrary.dll
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\bin\Debug\ControlLibrary.pdb
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\bin\Debug\Library.dll
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\bin\Debug\Library.pdb
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\obj\Debug\ControlLibrary.csproj.AssemblyReference.cache
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\obj\Debug\ControlLibrary.src.Display.resources
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\obj\Debug\ControlLibrary.src.Governor.resources
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\obj\Debug\ControlLibrary.csproj.GenerateResource.cache
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\obj\Debug\ControlLibrary.csproj.CoreCompileInputs.cache
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\obj\Debug\ControlLibrary.csproj.CopyComplete
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\obj\Debug\ControlLibrary.dll
+D:\My\GitHub\_work\USB-53-54\USB-53-54\ControlLibrary\obj\Debug\ControlLibrary.pdb

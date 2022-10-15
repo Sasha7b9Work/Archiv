@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HAL">
+      <UniqueIdentifier>{9cc6b4e7-0cb6-4bf3-b5c0-0beda16dd5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{9840d785-1337-435e-bd7a-16112427ebbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display">
+      <UniqueIdentifier>{3559e0de-c007-465f-8e20-945d7c0da4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FPGA">
+      <UniqueIdentifier>{43545401-1170-4a79-8cae-a5c6d5351cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Keyboard">
+      <UniqueIdentifier>{5234a65b-e47c-418f-9fd5-b111a3186837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hardware">
+      <UniqueIdentifier>{7678a7a3-bb69-4d56-a1c7-c5352a503f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{9320358b-cccc-418e-b242-06def447521f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Pages">
+      <UniqueIdentifier>{52187f6c-cc20-4579-acdb-d4602eed8731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Multimeter">
+      <UniqueIdentifier>{3e6fd812-c5ff-4113-8ed9-c36a5fbb7dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Osci">
+      <UniqueIdentifier>{cf450088-3b52-4251-a1fe-e3f5debff169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{8ee92777-1f06-4552-b23c-87b59cd6cfd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tester">
+      <UniqueIdentifier>{dbc628ab-323b-4317-aad9-1a6433a13ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ff47b08e-ea21-439f-b923-bd88e083e3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5d3eec9b-e3b4-4b81-ba83-07b35348013e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="forVS">
+      <UniqueIdentifier>{f83978e4-630f-4252-b366-9b09e31d4fa5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_nor.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_tim.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\libs\system_stm32f4xx.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\libs\stm32f4xx_hal_msp.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Device.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Display\Display.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Display\Grid.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Display\Painter.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Display\PainterData.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\FPGA\AD9286.cpp">
+      <Filter>FPGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\FPGA\FPGA.cpp">
+      <Filter>FPGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\FPGA\Storage.cpp">
+      <Filter>FPGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Hardware\Decoder.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Hardware\FLASH.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Hardware\FSMC.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Hardware\GPIO.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Hardware\Hardware.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Hardware\Timer.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Menu\Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Menu\MenuControls.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Menu\Pages\PageChannel.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Menu\Pages\PageDisplay.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Menu\Pages\PageService.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Menu\Pages\PageTester.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Menu\Pages\PageTrig.cpp">
+      <Filter>Menu\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Multimeter\Multimeter.cpp">
+      <Filter>Multimeter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Osci\Osci.cpp">
+      <Filter>Osci</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Settings\Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\Tester\Tester.cpp">
+      <Filter>Tester</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Utils\StringUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Utils\Math.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Utils\Dictionary.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\Utils\CommonFunctions.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\commonDefines.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Device\libs\stm32f4xx_it.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Kornet\Device\libs\startup_stm32f437xx.s">
+      <Filter>libs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Kornet\Device\libs\stm32f4xx_hal_conf.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\libs\stm32f4xx_it.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\core_cm4.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\ctype.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\ff.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\ff_gen_drv.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\limits.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\math.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\stdarg.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\stdint.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\stdio.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\stdlib.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\stm32f4xx_hal.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\string.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\tchar.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbd_cdc.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbd_core.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbd_def.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbd_ioreq.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbh_core.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbh_def.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbh_msc.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\usbh_msc_bot.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\windows.h">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\defines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Device.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Log.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Display\Display.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Display\Grid.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Display\Painter.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Display\PainterData.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Display\TypeSymbols.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\FPGA\AD9286.h">
+      <Filter>FPGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\FPGA\FPGA.h">
+      <Filter>FPGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\FPGA\Storage.h">
+      <Filter>FPGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Keyboard\Buttons.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Hardware\Decoder.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Hardware\FLASH.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Hardware\FSMC.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Hardware\GPIO.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Hardware\Hardware.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Hardware\Timer.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Menu\Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Menu\MenuControls.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Multimeter\Multimeter.h">
+      <Filter>Multimeter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Osci\Osci.h">
+      <Filter>Osci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Settings\Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Settings\SettingsTypes.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Tester\Tester.h">
+      <Filter>Tester</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\_libs\forVS\algorithm">
+      <Filter>forVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Utils\StringUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Utils\Math.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Utils\CommonFunctions.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\Utils\Dictionary.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\FPGA\FPGATypes.h">
+      <Filter>FPGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Display\DisplayTypes.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\commonDefines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Settings\SettingsMath.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Device\Settings\SettingsTime.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

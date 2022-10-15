@@ -1,0 +1,32 @@
+#pragma once  
+#include "defines.h"
+
+
+#define PRIORITY_PANEL_EXTI9_5  3, 0
+#define PRIORITY_PANEL_SPI1     4, 0
+
+
+typedef enum
+{
+    TypeWriteDAC_RShift0,
+    TypeWriteDAC_RShift1,
+    TypeWriteDAC_TrigLev
+} TypeWriteDAC;
+
+typedef enum
+{
+    TypeWriteAnalog_All,
+    TypeWriteAnalog_Range0,
+    TypeWriteAnalog_Range1,
+    TypeWriteAnalog_TrigParam,
+    TypeWriteAnalog_ChanParam0,
+    TypeWriteAnalog_ChanParam1
+} TypeWriteAnalog;
+
+
+class Hardware
+{
+public:
+    static void Init();
+    static void DeInit();
+};

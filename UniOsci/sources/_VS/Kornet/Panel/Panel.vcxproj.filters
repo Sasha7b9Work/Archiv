@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HAL">
+      <UniqueIdentifier>{6a5db84e-81cf-4f28-8d7b-fa41a3918b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{2b1c1fff-84f0-4111-a47e-ea732a2501dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display">
+      <UniqueIdentifier>{89baa631-c8df-4cc5-8482-c1778fdd1133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display\font">
+      <UniqueIdentifier>{aaebdff7-53f3-4911-b4f3-6d8044f44016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hardware">
+      <UniqueIdentifier>{76bba3b7-677a-4c55-a13f-2d7a91ba36ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Keyboard">
+      <UniqueIdentifier>{3cbf6f66-fa4e-423b-a210-6110adc33b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{935bd6f7-1c3a-4a0d-bbec-a6e032ce02b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\_libs\STM32Cube_F4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c">
+      <Filter>HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\libs\system_stm32f4xx.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\libs\stm32f4xx_it.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\Display\Display.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\Display\Painter.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\Hardware\Decoder.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\Hardware\FSMC.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\Hardware\Hardware.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\Hardware\Timer.cpp">
+      <Filter>Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\Keyboard\Keyboard.cpp">
+      <Filter>Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\Display\font\Font.cpp">
+      <Filter>Display\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Kornet\Panel\libs\stm32f4xx_hal_msp.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Kornet\Panel\libs\startup_stm32f429xx.s">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="..\..\..\Kornet\Panel\Display\font\font5.inc">
+      <Filter>Display\font</Filter>
+    </None>
+    <None Include="..\..\..\Kornet\Panel\Display\font\font8.inc">
+      <Filter>Display\font</Filter>
+    </None>
+    <None Include="..\..\..\Kornet\Panel\Display\font\fontUGO.inc">
+      <Filter>Display\font</Filter>
+    </None>
+    <None Include="..\..\..\Kornet\Panel\Display\font\fontUGO2.inc">
+      <Filter>Display\font</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Kornet\Panel\libs\stm32f4xx_hal_conf.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\libs\stm32f4xx_it.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\Display\Display.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\Display\DisplayTypes.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\Display\Painter.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\Display\font\Font.h">
+      <Filter>Display\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\Hardware\Decoder.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\Hardware\FSMC.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\Hardware\Hardware.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\Hardware\Timer.h">
+      <Filter>Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\Keyboard\Controls.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\Keyboard\Keyboard.h">
+      <Filter>Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Kornet\Panel\defines.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
