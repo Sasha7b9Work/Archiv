@@ -1,0 +1,37 @@
+1. FindSignal(channel)
+   IsFindSignal
+2. ModeCalibrator(AC, DC)
+3. Calibrate.
+   IsCalibrate
+4. SinchroChannel(0, 1)
+5. Range(channel, range)
+6. Ypos(channel, voltage)
+7. FiltrPalm(channel, on, off, numPoints)
+8. ModeInput (AC, DC, Ground)
+9. SignSignal (pos, neg, null)
+10. SinchroLevel
+11. SinchroMode(auto, manual)
+12. ButtonStartSinchro
+13. FrontSinchro(on, off)
+14. SinchroFiltr(on, off)
+15. TBase(tBase)
+16. XPos(xPos);
+17. TPos(left, center, right)
+18. MeasureFreq
+19. MeasurePeriod
+20. MeasureTimeImpuls
+21. MeasureTimePause
+22. MeasurePause
+22. MeasureSkvaznost
+23. MeasureUMin
+24. MeasureUMax
+25. MeasureAmplitude
+26. MeasureRMS
+27. Function(MUL, DIV, ENABLE, DISABLE)
+28. Spectr(chan, en, on, off)
+29. Average(on, off, num)
+30. Accumulation(on, off, num, limitation)
+31. GetComports
+32. CreateDevice
+33. SetMode(oscilloscope, voltmetr, analyzer, registrator)
+33. GetData

@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix" >
+    <file>Volt.ico</file>
+  </qresource>
+</RCC>

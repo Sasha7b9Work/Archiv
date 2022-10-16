@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Configurator" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACQCAAAAAAiAAAAACAACAAAAAAAAACAIAAQAAAAAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\Configurator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Display" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GABABkkAAAgghQJAOCABAQAxwASQABQAAQAAixAAQBQ=</HashCode>
+      <FileName>src\Display.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FastLog" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAACAAAAEAAgAAABAAAgEAAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\FastLog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MathDisplayOscilloscope" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAACAIACAAQACQAAABAAiAAAAAAAAAMAEQAAwACg=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\MathDisplayOscilloscope.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RShiftCursorScreen" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAFAAABEAAAgAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\RShiftCursorScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RunScreen" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAABAAAAAAAAAQAAAAAAAAAAADAAAA=</HashCode>
+      <FileName>src\RunScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SignalScreen" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABIGAIUACDgBkpI/MBAGABwAQA4AIQAAEQAgFBAIwA=</HashCode>
+      <FileName>src\SignalScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Slider" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAgAAKAAAAAAAgAAQAAAAAAAAgAAABAQ=</HashCode>
+      <FileName>src\Slider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TablesOfConverting" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAACAIAIAAAICIAAIAEEAAAAAAAAAICAAAAAABCg=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TablesOfConverting.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCursor" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAEAAAABAAAAAEGBgQgADAAAAgIAAAAwQAAAAABA=</HashCode>
+      <FileName>src\TCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextBuffer" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAIAAAAAgAAAAAAAAABQBAAAEIAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TextBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadAutoSearch" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggRgAAAAAAAAAAKgAAgAACgAQQAACBCAgAgAAAAAQ=</HashCode>
+      <FileName>src\ThreadAutoSearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Time" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAJAAAAxQBAAAAAAAAAAAAAAAAQAAAAgIAAAAERA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\Time.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeCursorScreen" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAABAAABEAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\TimeCursorScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAABAAAACAAhAAAgAgAAAAAAAAAAAEAAAAAAEAEAQA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrigCursorScreen" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAABAAABEAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\TrigCursorScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrigScreen" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAABAAAgAAAAAQAAAAAAAAAAgBAAAA=</HashCode>
+      <FileName>src\TrigScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tuner" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DIIA0EIyRJACJCKEcxCWA0CoQgEkEKQBQhzgAICQBCA=</HashCode>
+      <FileName>src\Tuner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCursor" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAACBECAAADAEAIAOGBgAhMAggBQkIAAAAgQgAAAABQ=</HashCode>
+      <FileName>src\UCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowOsci" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACwABECAoCwFgIAwKIECADSAggEQAgQBgIoAggAIACU=</HashCode>
+      <FileName>src\WindowOsci.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="qCleanupResources_resources__dest_class__" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>debug\qrc_resources.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui_WindowOsci" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>78cIWiL9xoKAJBJAGUAFoRmxQwUgY4BQYiCAoWAghDA=</HashCode>
+      <FileName>ui_WindowOsci.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::WindowOsci" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ui_WindowOsci.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SettingsDisplay" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAABBAAAQCSARAACEGEAARAAQQgIEEBAMgBCACBAAA=</HashCode>
+      <FileName>src\SettingsDisplay.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="BYTE" Collapsed="true">
+    <Position X="3" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\program files\microsoft sdks\windows\v6.0a\include\windef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WORD" Collapsed="true">
+    <Position X="6.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\program files\microsoft sdks\windows\v6.0a\include\windef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DWORD" Collapsed="true">
+    <Position X="4.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>e:\program files\microsoft sdks\windows\v6.0a\include\windef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="NS_AlteraAddressSpace::WRITE" Collapsed="true">
+    <Position X="6.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIJBIAAAAAKAgQAAgAAAAQADAAAAIAAAIEAIAAAAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\Device129\src\AddressSpaceAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_AlteraAddressSpace::READ" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABAAAAAAAAAAAAAAAAAAAAIACAAAAAwAAAAAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\Device129\src\AddressSpaceAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_Configurator::PARAMETER" Collapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIFIAEDASAEggQAAARAACARWBAAJQCAAEAgABAIBA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\Configurator.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_Configurator::COLOR_PARAMETER" Collapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAAAAgAAQAAAAABAABAAAAAHAAAAAQ=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\Configurator.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesAltera::Range" Collapsed="true">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAMAEAAAAAAAgAAAAAEAAAAIAAAAAEAAOAAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TypesAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesAltera::TBase" Collapsed="true">
+    <Position X="8.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAAAEgEACCMAADEAAAAAAAAAAAAAAAgIAkAQAwAAEA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TypesAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesAltera::FBase" Collapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAABAAACAAABAAAAAAAAAAgABAIAAAAAAAiAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TypesAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesAltera::Sinchro" Collapsed="true">
+    <Position X="4.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TypesAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesAltera::StartMode" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAEAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TypesAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesAltera::ModeADC" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TypesAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesAltera::TPos" Collapsed="true">
+    <Position X="10" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAACAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TypesAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesAltera::ModeInput" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TypesAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesAltera::ModeDevice" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAEABAAAABAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\common\TypesAltera.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesDisplay::TypeDisplay" Collapsed="true">
+    <Position X="3" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>src\TypesDisplay.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesDisplay::TypeGrid" Collapsed="true">
+    <Position X="4.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>src\TypesDisplay.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesDisplay::DrawMode" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\TypesDisplay.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesDisplay::ModeAccumulation" Collapsed="true">
+    <Position X="10" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\TypesDisplay.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="NS_TypesMath::Function" Collapsed="true">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\Sasha\Serga\Source\SergaUni\Device129\src\TypesMath.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

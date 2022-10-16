@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="Registrator"
+	ProjectGUID="{10296B43-A411-314A-B5E9-7EAF99C25D91}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="release\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;d:\Sasha\Qt4\include\QtCore&quot;,&quot;d:\Sasha\Qt4\include\QtGui&quot;,&quot;d:\Sasha\Qt4\include&quot;,&quot;.&quot;,&quot;d:\Sasha\Qt4\include\ActiveQt&quot;,&quot;release&quot;,&quot;.&quot;,d:\Sasha\Qt4\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189 -w34100 -w34189"
+				AssemblerListingLocation="release\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="0"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="release\"
+				Optimization ="2"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="d:\Sasha\Qt4\lib\qtmain.lib d:\Sasha\Qt4\lib\QtGui4.lib d:\Sasha\Qt4\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="d:\Sasha\Qt4\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot; &quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="..\Release\Registrator.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true"/>
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="debug\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;d:\Sasha\Qt4\include\QtCore&quot;,&quot;d:\Sasha\Qt4\include\QtGui&quot;,&quot;d:\Sasha\Qt4\include&quot;,&quot;.&quot;,&quot;d:\Sasha\Qt4\include\ActiveQt&quot;,&quot;debug&quot;,&quot;.&quot;,d:\Sasha\Qt4\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189 -w34100 -w34189"
+				AssemblerListingLocation="debug\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="debug\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="d:\Sasha\Qt4\lib\qtmaind.lib d:\Sasha\Qt4\lib\QtGuid4.lib d:\Sasha\Qt4\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="d:\Sasha\Qt4\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot; &quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="..\Release\Registrator.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true"/>
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,_DEBUG"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="src\UnityDebugRegistrator.cpp"/>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="..\Device129Multi\src\AbstractAltera.h"/>
+			<File
+				RelativePath="..\common\AbstractSettingsDisplay.h"/>
+			<File
+				RelativePath="..\Device129Multi\src\AddressSpaceAltera.h"/>
+			<File
+				RelativePath="..\Device129Multi\src\ComPort.h"/>
+			<File
+				RelativePath="..\common\Configurator.h"/>
+			<File
+				RelativePath="src\DataRegistrator.h"/>
+			<File
+				RelativePath="..\Device129Multi\src\Device129Multi.h"/>
+			<File
+				RelativePath="src\DisplayRegistrator.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4\bin\moc.exe;src\DisplayRegistrator.h"
+						CommandLine="D:\Sasha\Qt4\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\Sasha\Qt4\include\QtCore&quot; -I&quot;d:\Sasha\Qt4\include\QtGui&quot; -I&quot;d:\Sasha\Qt4\include&quot; -I&quot;.&quot; -I&quot;d:\Sasha\Qt4\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\Sasha\Qt4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\DisplayRegistrator.h -o release\moc_DisplayRegistrator.cpp"
+						Description="MOC src\DisplayRegistrator.h"
+						Outputs="release\moc_DisplayRegistrator.cpp"
+						Path="d:\Sasha\Qt4\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4\bin\moc.exe;src\DisplayRegistrator.h"
+						CommandLine="D:\Sasha\Qt4\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\Sasha\Qt4\include\QtCore&quot; -I&quot;d:\Sasha\Qt4\include\QtGui&quot; -I&quot;d:\Sasha\Qt4\include&quot; -I&quot;.&quot; -I&quot;d:\Sasha\Qt4\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\Sasha\Qt4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\DisplayRegistrator.h -o debug\moc_DisplayRegistrator.cpp"
+						Description="MOC src\DisplayRegistrator.h"
+						Outputs="debug\moc_DisplayRegistrator.cpp"
+						Path="d:\Sasha\Qt4\bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\common\GeometryMath.h"/>
+			<File
+				RelativePath="..\common\GlobalFunctions.h"/>
+			<File
+				RelativePath="src\MathDisplayRegistrator.h"/>
+			<File
+				RelativePath="..\Device129Multi\src\SettingsAltera.h"/>
+			<File
+				RelativePath="src\SettingsDisplayRegistrator.h"/>
+			<File
+				RelativePath="src\SignalScreenRegistrator.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4\bin\moc.exe;src\SignalScreenRegistrator.h"
+						CommandLine="D:\Sasha\Qt4\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\Sasha\Qt4\include\QtCore&quot; -I&quot;d:\Sasha\Qt4\include\QtGui&quot; -I&quot;d:\Sasha\Qt4\include&quot; -I&quot;.&quot; -I&quot;d:\Sasha\Qt4\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\Sasha\Qt4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\SignalScreenRegistrator.h -o release\moc_SignalScreenRegistrator.cpp"
+						Description="MOC src\SignalScreenRegistrator.h"
+						Outputs="release\moc_SignalScreenRegistrator.cpp"
+						Path="d:\Sasha\Qt4\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4\bin\moc.exe;src\SignalScreenRegistrator.h"
+						CommandLine="D:\Sasha\Qt4\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\Sasha\Qt4\include\QtCore&quot; -I&quot;d:\Sasha\Qt4\include\QtGui&quot; -I&quot;d:\Sasha\Qt4\include&quot; -I&quot;.&quot; -I&quot;d:\Sasha\Qt4\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\Sasha\Qt4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\SignalScreenRegistrator.h -o debug\moc_SignalScreenRegistrator.cpp"
+						Description="MOC src\SignalScreenRegistrator.h"
+						Outputs="debug\moc_SignalScreenRegistrator.cpp"
+						Path="d:\Sasha\Qt4\bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\common\TablesOfConverting.h"/>
+			<File
+				RelativePath="..\common\Time.h"/>
+			<File
+				RelativePath="..\common\Timer.h"/>
+			<File
+				RelativePath="..\common\TypesAltera.h"/>
+			<File
+				RelativePath="src\WindowRegistrator.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4\bin\moc.exe;src\WindowRegistrator.h"
+						CommandLine="D:\Sasha\Qt4\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\Sasha\Qt4\include\QtCore&quot; -I&quot;d:\Sasha\Qt4\include\QtGui&quot; -I&quot;d:\Sasha\Qt4\include&quot; -I&quot;.&quot; -I&quot;d:\Sasha\Qt4\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Id:\Sasha\Qt4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\WindowRegistrator.h -o release\moc_WindowRegistrator.cpp"
+						Description="MOC src\WindowRegistrator.h"
+						Outputs="release\moc_WindowRegistrator.cpp"
+						Path="d:\Sasha\Qt4\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4\bin\moc.exe;src\WindowRegistrator.h"
+						CommandLine="D:\Sasha\Qt4\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;d:\Sasha\Qt4\include\QtCore&quot; -I&quot;d:\Sasha\Qt4\include\QtGui&quot; -I&quot;d:\Sasha\Qt4\include&quot; -I&quot;.&quot; -I&quot;d:\Sasha\Qt4\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Id:\Sasha\Qt4\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\WindowRegistrator.h -o debug\moc_WindowRegistrator.cpp"
+						Description="MOC src\WindowRegistrator.h"
+						Outputs="debug\moc_WindowRegistrator.cpp"
+						Path="d:\Sasha\Qt4\bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\common\defines.h"/>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="debug\moc_DisplayRegistrator.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_DisplayRegistrator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_SignalScreenRegistrator.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_SignalScreenRegistrator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_WindowRegistrator.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_WindowRegistrator.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\qrc_resources.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\qrc_resources.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\registrator.res">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\registrator.res">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="ui_WindowRegistrator.h"/>
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="false">
+			<File
+				RelativePath="src\WindowRegistrator.ui">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4\bin\uic.exe;src\WindowRegistrator.ui"
+						CommandLine="D:\Sasha\Qt4\bin\uic.exe src\WindowRegistrator.ui -o ui_WindowRegistrator.h"
+						Description="UIC src\WindowRegistrator.ui"
+						Outputs="ui_WindowRegistrator.h"
+						Path="d:\Sasha\Qt4\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4\bin\uic.exe;src\WindowRegistrator.ui"
+						CommandLine="D:\Sasha\Qt4\bin\uic.exe src\WindowRegistrator.ui -o ui_WindowRegistrator.h"
+						Description="UIC src\WindowRegistrator.ui"
+						Outputs="ui_WindowRegistrator.h"
+						Path="d:\Sasha\Qt4\bin"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="Registro.ico"/>
+			<File
+				RelativePath="resources.qrc">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4\bin\rcc.exe;Registro.ico;resources.qrc"
+						CommandLine="D:\Sasha\Qt4\bin\rcc.exe -name resources resources.qrc -o release\qrc_resources.cpp"
+						Description="RCC resources.qrc"
+						Outputs="release\qrc_resources.cpp"
+						Path="d:\Sasha\Qt4\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4\bin\rcc.exe;Registro.ico;resources.qrc"
+						CommandLine="D:\Sasha\Qt4\bin\rcc.exe -name resources resources.qrc -o debug\qrc_resources.cpp"
+						Description="RCC resources.qrc"
+						Outputs="debug\qrc_resources.cpp"
+						Path="d:\Sasha\Qt4\bin"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="registrator.rc"/>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

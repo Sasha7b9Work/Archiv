@@ -1,0 +1,8 @@
+#include "../common/Configurator.cpp"
+#include "Display.cpp"
+#include "../common/GlobalFunctions.cpp"
+#include "main.cpp"
+#include "../common/TablesOfConverting.cpp"
+#include "../common/Time.cpp"
+#include "../common/Timer.cpp"
+#include "Voltmeter_Window.cpp"

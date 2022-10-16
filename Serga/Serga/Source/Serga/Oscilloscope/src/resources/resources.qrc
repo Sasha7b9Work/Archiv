@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="Images" >
+    <file>NO_FILTR.bmp</file>
+    <file>Osci.ico</file>
+    <file>FILTR.bmp</file>
+    <file>PAUSE.bmp</file>
+    <file>START.bmp</file>
+    <file>END.bmp</file>
+    <file>FRONT.bmp</file>
+    <file>DISABLE.bmp</file>
+    <file>NEG.bmp</file>
+    <file>POS.bmp</file>
+    <file>AC.bmp</file>
+    <file>Ground.bmp</file>
+    <file>DC.bmp</file>
+    <file>null.bmp</file>
+  </qresource>
+</RCC>
