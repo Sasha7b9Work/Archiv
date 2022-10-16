@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="Baikal"
+	ProjectGUID="{5FBACD8D-2A53-3CB6-B5E5-697B8C2E22D7}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="release\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\Qt4_Release\include\QtCore&quot;,&quot;..\..\..\Qt4_Release\include\QtGui&quot;,&quot;..\..\..\Qt4_Release\include&quot;,&quot;.&quot;,&quot;..\..\..\Qt4_Release\include\ActiveQt&quot;,&quot;release&quot;,&quot;.&quot;,..\..\..\Qt4_Release\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189 -w34100 -w34189"
+				AssemblerListingLocation="release\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="0"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="release\"
+				Optimization ="2"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="0"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="d:\Sasha\Qt4_Release\lib\qtmain.lib d:\Sasha\Qt4_Release\lib\QtGui.lib d:\Sasha\Qt4_Release\lib\QtCore.lib gdi32.lib comdlg32.lib oleaut32.lib imm32.lib winmm.lib winspool.lib ws2_32.lib ole32.lib user32.lib advapi32.lib msimg32.lib shell32.lib kernel32.lib uuid.lib"
+				AdditionalLibraryDirectories="d:\Sasha\Qt4_Release\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot; &quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="false"
+				IgnoreImportLibrary="true"
+				LinkIncremental="1"
+				LinkTimeCodeGeneration="0"
+				OutputFile="release\Baikal.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true"/>
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="debug\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;..\..\..\Qt4_Release\include\QtCore&quot;,&quot;..\..\..\Qt4_Release\include\QtGui&quot;,&quot;..\..\..\Qt4_Release\include&quot;,&quot;.&quot;,&quot;..\..\..\Qt4_Release\include\ActiveQt&quot;,&quot;debug&quot;,&quot;.&quot;,..\..\..\Qt4_Release\mkspecs\win32-msvc2008"
+				AdditionalOptions="-Zm200 -w34100 -w34189 -w34100 -w34189"
+				AssemblerListingLocation="debug\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				GeneratePreprocessedFile="0"
+				ObjectFile="debug\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="1"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				TreatWChar_tAsBuiltInType="false"
+				WarningLevel="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="d:\Sasha\Qt4_Release\lib\qtmaind.lib d:\Sasha\Qt4_Release\lib\QtGuid.lib d:\Sasha\Qt4_Release\lib\QtCored.lib gdi32.lib comdlg32.lib oleaut32.lib imm32.lib winmm.lib winspool.lib ws2_32.lib ole32.lib user32.lib advapi32.lib msimg32.lib shell32.lib kernel32.lib uuid.lib"
+				AdditionalLibraryDirectories="d:\Sasha\Qt4_Release\lib"
+				AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot; &quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;"
+				GenerateDebugInformation="true"
+				IgnoreImportLibrary="true"
+				LinkTimeCodeGeneration="0"
+				OutputFile="debug\Baikal.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true"/>
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_GUI_LIB,QT_CORE_LIB,QT_THREAD_SUPPORT,_DEBUG"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="src\ComPort.cpp"/>
+			<File
+				RelativePath="src\Configurator.cpp"/>
+			<File
+				RelativePath="src\Device.cpp"/>
+			<File
+				RelativePath="src\Display.cpp"/>
+			<File
+				RelativePath="src\FastLog.cpp"/>
+			<File
+				RelativePath="src\GlobalVars.cpp"/>
+			<File
+				RelativePath="src\Holder.cpp"/>
+			<File
+				RelativePath="src\MathDevice.cpp"/>
+			<File
+				RelativePath="src\ProgrammingThread.cpp"/>
+			<File
+				RelativePath="src\SettingsDialog.cpp"/>
+			<File
+				RelativePath="src\TableProg.cpp"/>
+			<File
+				RelativePath="src\TextBuffer.cpp"/>
+			<File
+				RelativePath="src\Time.cpp"/>
+			<File
+				RelativePath="src\Timer.cpp"/>
+			<File
+				RelativePath="src\WindowVoltimetr.cpp"/>
+			<File
+				RelativePath="src\main.cpp"/>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="src\ComPort.h"/>
+			<File
+				RelativePath="src\Configurator.h"/>
+			<File
+				RelativePath="src\Device.h"/>
+			<File
+				RelativePath="src\Display.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\Display.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\Display.h -o release\moc_Display.cpp"
+						Description="MOC src\Display.h"
+						Outputs="release\moc_Display.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\Display.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\Display.h -o debug\moc_Display.cpp"
+						Description="MOC src\Display.h"
+						Outputs="debug\moc_Display.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="src\FastLog.h"/>
+			<File
+				RelativePath="src\GlobalFunctions.h"/>
+			<File
+				RelativePath="src\GlobalVars.h"/>
+			<File
+				RelativePath="src\Holder.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\Holder.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\Holder.h -o release\moc_Holder.cpp"
+						Description="MOC src\Holder.h"
+						Outputs="release\moc_Holder.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\Holder.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\Holder.h -o debug\moc_Holder.cpp"
+						Description="MOC src\Holder.h"
+						Outputs="debug\moc_Holder.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="src\MathDevice.h"/>
+			<File
+				RelativePath="src\ProgrammingThread.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\ProgrammingThread.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\ProgrammingThread.h -o release\moc_ProgrammingThread.cpp"
+						Description="MOC src\ProgrammingThread.h"
+						Outputs="release\moc_ProgrammingThread.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\ProgrammingThread.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\ProgrammingThread.h -o debug\moc_ProgrammingThread.cpp"
+						Description="MOC src\ProgrammingThread.h"
+						Outputs="debug\moc_ProgrammingThread.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="src\SettingsDialog.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\SettingsDialog.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\SettingsDialog.h -o release\moc_SettingsDialog.cpp"
+						Description="MOC src\SettingsDialog.h"
+						Outputs="release\moc_SettingsDialog.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\SettingsDialog.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\SettingsDialog.h -o debug\moc_SettingsDialog.cpp"
+						Description="MOC src\SettingsDialog.h"
+						Outputs="debug\moc_SettingsDialog.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="src\TableProg.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\TableProg.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\TableProg.h -o release\moc_TableProg.cpp"
+						Description="MOC src\TableProg.h"
+						Outputs="release\moc_TableProg.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\TableProg.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\TableProg.h -o debug\moc_TableProg.cpp"
+						Description="MOC src\TableProg.h"
+						Outputs="debug\moc_TableProg.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="src\TextBuffer.h"/>
+			<File
+				RelativePath="src\Time.h"/>
+			<File
+				RelativePath="src\Timer.h"/>
+			<File
+				RelativePath="src\WindowVoltimetr.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\WindowVoltimetr.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\WindowVoltimetr.h -o release\moc_WindowVoltimetr.cpp"
+						Description="MOC src\WindowVoltimetr.h"
+						Outputs="release\moc_WindowVoltimetr.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\moc.exe;src\WindowVoltimetr.h"
+						CommandLine="D:\Sasha\Qt4_Release\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -I&quot;..\..\..\Qt4_Release\include\QtCore&quot; -I&quot;..\..\..\Qt4_Release\include\QtGui&quot; -I&quot;..\..\..\Qt4_Release\include&quot; -I&quot;.&quot; -I&quot;..\..\..\Qt4_Release\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -I..\..\..\Qt4_Release\mkspecs\win32-msvc2008 -D_MSC_VER=1500 -DWIN32 src\WindowVoltimetr.h -o debug\moc_WindowVoltimetr.cpp"
+						Description="MOC src\WindowVoltimetr.h"
+						Outputs="debug\moc_WindowVoltimetr.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="src\defines.h"/>
+			<File
+				RelativePath="resource.h"/>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="debug\moc_Display.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_Display.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_Holder.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_Holder.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_ProgrammingThread.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_ProgrammingThread.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_SettingsDialog.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_SettingsDialog.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_TableProg.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_TableProg.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_WindowVoltimetr.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_WindowVoltimetr.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\qrc_resource.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\qrc_resource.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="ui_SettingsDialog.h"/>
+			<File
+				RelativePath="ui_WindowVoltimetr.h"/>
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="false">
+			<File
+				RelativePath="src\SettingsDialog.ui">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\uic.exe;src\SettingsDialog.ui"
+						CommandLine="D:\Sasha\Qt4_Release\bin\uic.exe src\SettingsDialog.ui -o ui_SettingsDialog.h"
+						Description="UIC src\SettingsDialog.ui"
+						Outputs="ui_SettingsDialog.h"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\uic.exe;src\SettingsDialog.ui"
+						CommandLine="D:\Sasha\Qt4_Release\bin\uic.exe src\SettingsDialog.ui -o ui_SettingsDialog.h"
+						Description="UIC src\SettingsDialog.ui"
+						Outputs="ui_SettingsDialog.h"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="src\WindowVoltimetr.ui">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\uic.exe;src\WindowVoltimetr.ui"
+						CommandLine="D:\Sasha\Qt4_Release\bin\uic.exe src\WindowVoltimetr.ui -o ui_WindowVoltimetr.h"
+						Description="UIC src\WindowVoltimetr.ui"
+						Outputs="ui_WindowVoltimetr.h"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\uic.exe;src\WindowVoltimetr.ui"
+						CommandLine="D:\Sasha\Qt4_Release\bin\uic.exe src\WindowVoltimetr.ui -o ui_WindowVoltimetr.h"
+						Description="UIC src\WindowVoltimetr.ui"
+						Outputs="ui_WindowVoltimetr.h"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="qrc;*"
+			UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}"
+			ParseFiles="false">
+			<File
+				RelativePath="src\1.bmp"/>
+			<File
+				RelativePath="src\11.ico"/>
+			<File
+				RelativePath="src\resource.qrc">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\rcc.exe;src\1.bmp;src\11.ico;src\resource.qrc"
+						CommandLine="D:\Sasha\Qt4_Release\bin\rcc.exe -name resource src\resource.qrc -o release\qrc_resource.cpp"
+						Description="RCC src\resource.qrc"
+						Outputs="release\qrc_resource.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="D:\Sasha\Qt4_Release\bin\rcc.exe;src\1.bmp;src\11.ico;src\resource.qrc"
+						CommandLine="D:\Sasha\Qt4_Release\bin\rcc.exe -name resource src\resource.qrc -o debug\qrc_resource.cpp"
+						Description="RCC src\resource.qrc"
+						Outputs="debug\qrc_resource.cpp"
+						Path="d:\Sasha\Qt4_Release\bin"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
