@@ -10,5 +10,6 @@ del *.*pch /s /q
 del *.d /s /q
 del *.o /s /q
 del *.dep /s /q
+del *.db /s /q
 
 pause
