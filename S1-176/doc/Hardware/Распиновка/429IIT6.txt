@@ -1,0 +1,44 @@
+1  DA2             45               89              133 LTDC G7
+2  DA3             46               90  VSS         134
+3  DISP WR         47 LTDC B5       91  VDD         135 VSS
+4  DISP RD         48 BYPASS_REG    92              136 VDD
+5                  49 VDD           93              137 SWCLK
+6  VBAT            50 PWM           94              138
+7                  51               95              139 WR REG3
+8                  52 LTDC G2       96  FMC D13     140 WR REG2
+9                  53               97  FMC D14     141 WR REG1
+10 LTDC VSYNC IN   54               98  FMC D15     142 FMC D2
+11 LTDC VSYNC OUT  55               99  FMC A16     143 FMC D3
+12 LTDC HSYNC OUT  56 LTDC R3       100 FMC A17     144
+13 LTDC HSINC IN   57 LTDC R6       101 FMC A18     145
+14 VSS             58               102 VSS         146 FMC NOE
+15 VDD             59               103 VDD         147 FMC NWE
+16 FMC A0          60 FMC A6        104 FMC D0      148 VSS
+17 FMC A1          61 VSS           105 FMC D1      149 VDD
+18 FMC A2          62 VDD           106 FMC A12     150 LTDC B2
+19 FMC A3          63 FMC A7        107 FMC A13     151 FMC NE1
+20 FMC A4          64 FMC A8        108 FMC A14     152
+21 FMC A5          65 FMC A9        109 FMC A15     153 U/D
+22 VSS             66 FMC A10       110 LTDC R7     154 LTDC B3
+23 VDD             67 FMC A11       111 LTDC CLK    155 LTDC B4
+24 DISP CS0        68 FMC D4        112             156 R/L
+25 DISP CS1        69 FMC D5        113 VSS         157 DEN
+26 DISP SEL0       70 FMC D6        114 VDD         158 VSS
+27                 71 VSS           115             159 VDD
+28 LTDC DE         72 VDD           116 LTDC G6     160 RL0
+29                 73 FMC D7        117 SL0         161 RL1
+30                 74 FMC D8        118 SL1         162 RL2
+31 NRST            75 FMC D9        119 SL2         163 RL3
+32 DA4             76 FMC D10       120 SL3         164 RL4
+33 DA5             77 FMC D11       121 SL4         165 RL5
+34 DA6             78 FMC D12       122 SL5         166 BOOT0
+35 DA7             79 LTDC G4       123 SL6         167 LTDC B6
+36 VDD             80 LTDC G5       124 SWDIO       168 LTDC B7
+37 VSSA            81 VCAP_1        125 VCAP_2      169 DA0
+38 VREF+           82 VDD           126 VSS         170 DA1
+39 VDDA            83               127 VDD         171 PDR_ON
+40                 84               128             172 VDD
+41                 85 LTDC R2       129 LTDC G3     173
+42                 86               130             174
+43                 87 LTDC R4       131             175
+44                 88 LTDC R5       132             176
