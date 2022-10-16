@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Comparer", "Comparer\Comparer.vcproj", "{3FB86378-AA00-465B-BDAC-F4A178EB80BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Replacer", "Replacer\Replacer.vcproj", "{5E86B1F5-AF30-40D6-98F2-88AFDCB6D3F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Finder", "Finder\Finder.vcproj", "{347DB2FF-BC55-4E1F-99A6-C6F302F35B08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB86378-AA00-465B-BDAC-F4A178EB80BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FB86378-AA00-465B-BDAC-F4A178EB80BD}.Debug|Win32.Build.0 = Debug|Win32
+		{3FB86378-AA00-465B-BDAC-F4A178EB80BD}.Release|Win32.ActiveCfg = Release|Win32
+		{3FB86378-AA00-465B-BDAC-F4A178EB80BD}.Release|Win32.Build.0 = Release|Win32
+		{5E86B1F5-AF30-40D6-98F2-88AFDCB6D3F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E86B1F5-AF30-40D6-98F2-88AFDCB6D3F2}.Debug|Win32.Build.0 = Debug|Win32
+		{5E86B1F5-AF30-40D6-98F2-88AFDCB6D3F2}.Release|Win32.ActiveCfg = Release|Win32
+		{5E86B1F5-AF30-40D6-98F2-88AFDCB6D3F2}.Release|Win32.Build.0 = Release|Win32
+		{347DB2FF-BC55-4E1F-99A6-C6F302F35B08}.Debug|Win32.ActiveCfg = Debug|Win32
+		{347DB2FF-BC55-4E1F-99A6-C6F302F35B08}.Debug|Win32.Build.0 = Debug|Win32
+		{347DB2FF-BC55-4E1F-99A6-C6F302F35B08}.Release|Win32.ActiveCfg = Release|Win32
+		{347DB2FF-BC55-4E1F-99A6-C6F302F35B08}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

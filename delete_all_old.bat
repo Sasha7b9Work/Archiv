@@ -11,5 +11,6 @@ del *.d /s /q
 del *.o /s /q
 del *.dep /s /q
 del *.db /s /q
+del *.ncb /s /q
 
 pause
