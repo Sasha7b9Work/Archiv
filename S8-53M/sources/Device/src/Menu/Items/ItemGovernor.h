@@ -1,0 +1,65 @@
+// (c) Aleksandr Shevchenko e-mail : Sasha7b9@tut.by
+#pragma once
+
+
+// Значок ручки
+struct Holder
+{
+    static void RotateGovernor(int delta);
+    static void RotateSwitch(int delta);
+    static void Draw(int x, int y, const Color &color);
+    static const char chars[4];     // Значки, соответствующие каждому из четырёх возможных углов поворота
+    static int angle;               // Угол поворота от 0 до 3
+private:
+    static void Rotate(int delta);
+};
+
+
+
+struct DataGovernor
+{
+    int16  *cell;
+    int     minValue;           // Минмальное значение, которое может принимать регулятор.
+    int16   maxValue;           // Максимальное значение.
+    pFuncVV funcOfChanged;      // Функция, которую нужно вызывать после того, как значение регулятора изменилось.
+};
+
+
+// Описывает регулятор.
+class Governor : public Item
+{
+public:
+
+    Governor(const DataItem *const data) : Item(data), inStateIncrease(false), inStateDecrease(false), timeStartMS(0) {};
+    const DataGovernor *OwnData() const {
+        return (const DataGovernor *)(data->ad);
+    }
+    // Обработка короткого нажатия на элемент Governor с адресом governor.
+    virtual void ShortPress();
+    void StartChange(int detla);            // Запускает процессс анимации инкремента или декремента элемента меню
+                                            // типа Governor (в зависимости от знака delta)
+    float Step() const;                     // Рассчитывате следующий кадр анимации.
+    virtual void OnRegSet(int delta) const; // Изменяет значение в текущей позиции при раскрытом элементе
+    int16 NextValue() const;                // Возвращает следующее большее значение, которое может принять governor.
+    int16 PrevValue() const;                // Возвращает следующее меньшее значение, которое может принять governor.
+
+    virtual void Draw(int x, int y, bool opened = false) const;
+
+private:
+    void DrawOpened(int x, int y) const;
+    void DrawClosed(int x, int y) const;
+    void DrawValue(int x, int y) const;
+
+    // Возвращает число знакомест в поле для ввода элемента governor.
+    // Зависит от максимального значения, которое может принимать governor.
+    int  NumDigits() const;
+
+    // При открытом элементе переставляет курсор на следующую позицию
+    void NextPosition();
+
+    void DrawLowPart(int x, int y) const;
+
+    bool inStateIncrease;
+    bool inStateDecrease;
+    uint timeStartMS;
+};
